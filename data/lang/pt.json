@@ -1,0 +1,57 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Informação sobre os seus direitos", "voluntary": "Pedido de acompanhamento voluntário", "consular": "Notificação consular" },
+  "arrest": "Você está sob prisão em flagrante por suspeita de {crime}.",
+  "crimes": {
+    "theft": "furto", "robbery": "roubo", "assault": "agressão", "injury": "lesão corporal", "fraud": "estelionato",
+    "drugs": "infração à lei de drogas", "dui": "embriaguez ao volante", "sexual_assault": "ato libidinoso forçado",
+    "immigration": "violação da Lei de Imigração", "obstruction": "resistência a funcionário público no exercício de suas funções", "general": "um crime"
+  },
+  "rights": [
+    "Você tem o direito de constituir um advogado e de receber a assistência dele.",
+    "Você tem o direito de apresentar a sua versão dos fatos.",
+    "Você tem o direito de permanecer em silêncio.",
+    "E você tem o direito de pedir que um tribunal examine a legalidade da sua prisão."
+  ],
+  "voluntary": {
+    "identity": "Eu sou {name}, policial da unidade {unit}.",
+    "identityAudio": "Eu sou policial. Minha unidade e meu nome aparecem nesta tela e na minha identificação policial.",
+    "request": "Para lhe fazer algumas perguntas, peço que você me acompanhe conforme abaixo.",
+    "purposes": {
+      "theft": "Finalidade: fazer perguntas relacionadas a um furto",
+      "robbery": "Finalidade: fazer perguntas relacionadas a um roubo",
+      "assault": "Finalidade: fazer perguntas relacionadas a uma agressão",
+      "injury": "Finalidade: fazer perguntas relacionadas a uma lesão corporal",
+      "fraud": "Finalidade: fazer perguntas relacionadas a um estelionato",
+      "drugs": "Finalidade: fazer perguntas relacionadas a uma infração à lei de drogas",
+      "dui": "Finalidade: fazer perguntas relacionadas a um caso de embriaguez ao volante",
+      "sexual_assault": "Finalidade: fazer perguntas relacionadas a um ato libidinoso forçado",
+      "immigration": "Finalidade: fazer perguntas relacionadas a uma violação da Lei de Imigração",
+      "obstruction": "Finalidade: fazer perguntas relacionadas a um caso de resistência a funcionário público no exercício de suas funções",
+      "general": "Finalidade: fazer perguntas relacionadas a um crime"
+    },
+    "reasons": { "disadvantage": "Motivo: fazer perguntas neste local seria desfavorável a você", "traffic": "Motivo: fazer perguntas neste local atrapalharia o trânsito" },
+    "place": "Local: {place}",
+    "places": { "substation": "posto policial distrital", "box": "posto policial", "station": "delegacia de polícia" },
+    "notice": [
+      "Você pode recusar o pedido do policial para acompanhá-lo.",
+      "Mesmo que concorde em acompanhar, você pode se afastar livremente a qualquer momento durante o trajeto e também pode sair livremente do local para onde formos.",
+      "Se você acompanhar, terá a oportunidade de fazer com que sua família, parentes ou outras pessoas sejam informados sobre a identidade do policial, o local e a finalidade e o motivo do acompanhamento, ou de entrar em contato com eles você mesmo imediatamente.",
+      "Além disso, você tem direito à assistência de um advogado.",
+      "Você entendeu tudo isso?",
+      "Se sim, você concorda, por sua livre vontade, em acompanhar o policial?"
+    ]
+  },
+  "consular": [
+    "Você tem o direito de pedir que um funcionário consular do seu país seja notificado da sua prisão.",
+    "Você também tem o direito de enviar cartas a um funcionário consular do seu país, na medida permitida pelas leis da República da Coreia.",
+    "Você deseja que notifiquemos um funcionário consular do seu país sobre a sua prisão?",
+    "Se sim, responda “Sim”; se não, responda “Não”."
+  ],
+  "consularMandatory": [
+    "De acordo com o Acordo Consular entre a República da Coreia e a República Popular da China, um funcionário consular da República Popular da China será notificado da sua prisão, independentemente da sua vontade.",
+    "Você também tem o direito de enviar cartas a um funcionário consular do seu país, na medida permitida pelas leis da República da Coreia."
+  ],
+  "yes": "Sim",
+  "no": "Não"
+}

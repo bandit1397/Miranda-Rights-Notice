@@ -1,7 +1,7 @@
 {
   "reviewed": false,
   "titles": { "miranda": "Información de sus derechos", "voluntary": "Solicitud de acompañamiento voluntario", "consular": "Notificación consular" },
-  "arrest": "Usted queda bajo arresto en flagrancia por {crime}.",
+  "arrest": "Usted queda bajo arresto en flagrancia por sospecha de {crime}.",
   "crimes": {
     "theft": "hurto", "robbery": "robo con violencia", "assault": "agresión", "injury": "lesiones", "fraud": "estafa",
     "drugs": "un delito contra la ley de drogas", "dui": "conducir en estado de ebriedad", "sexual_assault": "agresión sexual",

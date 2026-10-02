@@ -1,7 +1,7 @@
 {
   "reviewed": false,
   "titles": { "miranda": "Pemberitahuan Hak Anda", "voluntary": "Permintaan Ikut Secara Sukarela", "consular": "Pemberitahuan Konsuler" },
-  "arrest": "Anda ditangkap karena tertangkap tangan melakukan {crime}.",
+  "arrest": "Anda ditangkap dalam keadaan tertangkap tangan atas dugaan {crime}.",
   "crimes": {
     "theft": "pencurian", "robbery": "perampokan", "assault": "kekerasan terhadap orang", "injury": "penganiayaan yang menyebabkan luka", "fraud": "penipuan",
     "drugs": "pelanggaran undang-undang narkotika", "dui": "mengemudi dalam keadaan mabuk", "sexual_assault": "pencabulan dengan kekerasan",

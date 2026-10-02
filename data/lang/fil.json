@@ -1,7 +1,7 @@
 {
   "reviewed": false,
   "titles": { "miranda": "Abiso ng Iyong mga Karapatan", "voluntary": "Kahilingang Kusang Sumama", "consular": "Abiso sa Konsulado" },
-  "arrest": "Inaaresto ka dahil nahuli ka sa akto ng {crime}.",
+  "arrest": "Inaaresto ka dahil nahuli ka sa akto, sa hinala ng {crime}.",
   "crimes": {
     "theft": "pagnanakaw", "robbery": "panloloob na may dahas", "assault": "pananakit", "injury": "pananakit na nagdulot ng pinsala sa katawan", "fraud": "panloloko",
     "drugs": "paglabag sa batas sa droga", "dui": "pagmamaneho nang lasing", "sexual_assault": "sapilitang malaswang gawain",

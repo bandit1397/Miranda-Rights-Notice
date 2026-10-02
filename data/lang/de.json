@@ -1,0 +1,57 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Belehrung über Ihre Rechte", "voluntary": "Bitte um freiwillige Begleitung", "consular": "Benachrichtigung der konsularischen Vertretung" },
+  "arrest": "Sie werden wegen des Verdachts {crime} auf frischer Tat festgenommen.",
+  "crimes": {
+    "theft": "des Diebstahls", "robbery": "des Raubes", "assault": "der Tätlichkeit", "injury": "der Körperverletzung", "fraud": "des Betrugs",
+    "drugs": "eines Verstoßes gegen das Betäubungsmittelgesetz", "dui": "der Trunkenheit am Steuer", "sexual_assault": "des sexuellen Übergriffs",
+    "immigration": "eines Verstoßes gegen das Einwanderungsgesetz", "obstruction": "des Widerstands gegen Vollstreckungsbeamte", "general": "einer Straftat"
+  },
+  "rights": [
+    "Sie haben das Recht, einen Verteidiger zu wählen und dessen Beistand in Anspruch zu nehmen.",
+    "Sie haben das Recht, sich zu den Vorwürfen zu äußern.",
+    "Sie haben das Recht, die Aussage zu verweigern.",
+    "Außerdem haben Sie das Recht, die Rechtmäßigkeit Ihrer Festnahme gerichtlich überprüfen zu lassen."
+  ],
+  "voluntary": {
+    "identity": "Mein Name ist {name}. Ich bin bei der Polizei tätig, Dienststelle: {unit}.",
+    "identityAudio": "Ich bin bei der Polizei tätig. Meine Dienststelle und mein Name werden auf diesem Bildschirm und auf meinem Dienstausweis angezeigt.",
+    "request": "Um Ihnen Fragen zu stellen, bitte ich Sie, mich wie folgt zu begleiten.",
+    "purposes": {
+      "theft": "Zweck: Befragung im Zusammenhang mit einem Diebstahl",
+      "robbery": "Zweck: Befragung im Zusammenhang mit einem Raub",
+      "assault": "Zweck: Befragung im Zusammenhang mit einer Tätlichkeit",
+      "injury": "Zweck: Befragung im Zusammenhang mit einer Körperverletzung",
+      "fraud": "Zweck: Befragung im Zusammenhang mit einem Betrug",
+      "drugs": "Zweck: Befragung im Zusammenhang mit einem Verstoß gegen das Betäubungsmittelgesetz",
+      "dui": "Zweck: Befragung im Zusammenhang mit Trunkenheit am Steuer",
+      "sexual_assault": "Zweck: Befragung im Zusammenhang mit einem sexuellen Übergriff",
+      "immigration": "Zweck: Befragung im Zusammenhang mit einem Verstoß gegen das Einwanderungsgesetz",
+      "obstruction": "Zweck: Befragung im Zusammenhang mit Widerstand gegen Vollstreckungsbeamte",
+      "general": "Zweck: Befragung im Zusammenhang mit einer Straftat"
+    },
+    "reasons": { "disadvantage": "Grund: Eine Befragung an diesem Ort wäre für Sie nachteilig", "traffic": "Grund: Eine Befragung an diesem Ort würde den Verkehr behindern" },
+    "place": "Ort: {place}",
+    "places": { "substation": "Polizeiwache", "box": "Polizeiposten", "station": "Polizeirevier" },
+    "notice": [
+      "Sie können die Bitte der Polizei, sie zu begleiten, ablehnen.",
+      "Auch wenn Sie zustimmen, können Sie sich während der Begleitung jederzeit frei entfernen und auch den Ort, an den wir gehen, jederzeit frei verlassen.",
+      "Wenn Sie mitkommen, erhalten Sie die Gelegenheit, Ihre Familie, Angehörige oder andere Personen über die Identität des Polizeibeamten, den Ort sowie den Zweck und den Grund der Begleitung informieren zu lassen oder sie selbst sofort zu kontaktieren.",
+      "Außerdem haben Sie das Recht auf den Beistand eines Rechtsanwalts.",
+      "Haben Sie all dies verstanden?",
+      "Wenn ja, sind Sie aus freiem Willen damit einverstanden, die Polizei zu begleiten?"
+    ]
+  },
+  "consular": [
+    "Sie haben das Recht zu verlangen, dass ein Konsularbeamter Ihres Landes über Ihre Festnahme benachrichtigt wird.",
+    "Außerdem haben Sie das Recht, im Rahmen der Gesetze der Republik Korea einem Konsularbeamten Ihres Landes Briefe zu schicken.",
+    "Möchten Sie, dass wir einen Konsularbeamten Ihres Landes über Ihre Festnahme benachrichtigen?",
+    "Wenn ja, antworten Sie bitte mit „Ja“, wenn nicht, mit „Nein“."
+  ],
+  "consularMandatory": [
+    "Nach dem Konsularabkommen zwischen der Republik Korea und der Volksrepublik China wird ein Konsularbeamter der Volksrepublik China unabhängig von Ihrem Willen über Ihre Festnahme benachrichtigt.",
+    "Außerdem haben Sie das Recht, im Rahmen der Gesetze der Republik Korea einem Konsularbeamten Ihres Landes Briefe zu schicken."
+  ],
+  "yes": "Ja",
+  "no": "Nein"
+}

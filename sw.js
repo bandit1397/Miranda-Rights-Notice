@@ -1,6 +1,6 @@
 'use strict';
 // 앱 파일을 수정하면 SHELL 버전을 올린다.
-const SHELL = 'shell-v4';
+const SHELL = 'shell-v5';
 const AUDIO = 'audio-v1';
 const SHELL_FILES = [
   './', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',

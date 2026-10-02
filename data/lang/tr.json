@@ -1,0 +1,57 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Haklarınızın Bildirilmesi", "voluntary": "Gönüllü Eşlik Talebi", "consular": "Konsolosluğa Bildirim" },
+  "arrest": "Siz, {crime} şüphesiyle suçüstü hâlinde yakalanıyorsunuz.",
+  "crimes": {
+    "theft": "hırsızlık", "robbery": "yağma", "assault": "darp", "injury": "yaralama", "fraud": "dolandırıcılık",
+    "drugs": "uyuşturucu mevzuatına aykırılık", "dui": "alkollü araç kullanma", "sexual_assault": "cinsel saldırı",
+    "immigration": "göç mevzuatına aykırılık", "obstruction": "görevi yaptırmamak için direnme", "general": "bir suç"
+  },
+  "rights": [
+    "Avukat seçme ve avukatın yardımından yararlanma hakkınız vardır.",
+    "Kendinizi savunmak için açıklama yapma hakkınız vardır.",
+    "İfade vermeyi reddetme hakkınız vardır.",
+    "Ayrıca yakalamanın hukuka uygunluğunun mahkemece denetlenmesini talep etme hakkınız vardır."
+  ],
+  "voluntary": {
+    "identity": "Ben {unit} biriminde görevli polis memuru {name}.",
+    "identityAudio": "Ben polis memuruyum. Birimim ve adım bu ekranda ve polis kimlik kartımda gösterilmektedir.",
+    "request": "Size soru sorabilmek için, aşağıda belirtildiği şekilde benimle birlikte gelmenizi rica ediyorum.",
+    "purposes": {
+      "theft": "Amaç: hırsızlık olayıyla ilgili soru sormak",
+      "robbery": "Amaç: yağma olayıyla ilgili soru sormak",
+      "assault": "Amaç: darp olayıyla ilgili soru sormak",
+      "injury": "Amaç: yaralama olayıyla ilgili soru sormak",
+      "fraud": "Amaç: dolandırıcılık olayıyla ilgili soru sormak",
+      "drugs": "Amaç: uyuşturucu mevzuatına aykırılık olayıyla ilgili soru sormak",
+      "dui": "Amaç: alkollü araç kullanma olayıyla ilgili soru sormak",
+      "sexual_assault": "Amaç: cinsel saldırı olayıyla ilgili soru sormak",
+      "immigration": "Amaç: göç mevzuatına aykırılık olayıyla ilgili soru sormak",
+      "obstruction": "Amaç: görevi yaptırmamak için direnme olayıyla ilgili soru sormak",
+      "general": "Amaç: bir suç olayıyla ilgili soru sormak"
+    },
+    "reasons": { "disadvantage": "Neden: bu yerde soru sormak sizin aleyhinize olacağından", "traffic": "Neden: bu yerde soru sormak trafiği engelleyeceğinden" },
+    "place": "Gidilecek yer: {place}",
+    "places": { "substation": "bölge polis birimi", "box": "polis noktası", "station": "polis merkezi" },
+    "notice": [
+      "Polis memurunun birlikte gelme talebini reddedebilirsiniz.",
+      "Birlikte gelmeyi kabul etseniz bile, yol boyunca istediğiniz zaman serbestçe ayrılabilir, gidilen yerden de serbestçe çıkıp gidebilirsiniz.",
+      "Birlikte gelmeniz hâlinde, ailenize, akrabalarınıza veya diğer kişilere polis memurunun kimliği, gidilen yer, birlikte gelmenin amacı ve nedeni hakkında bilgi verilmesini sağlama ya da onlarla bizzat derhâl iletişime geçme imkânı tanınır.",
+      "Ayrıca avukat yardımından yararlanma hakkınız vardır.",
+      "Tüm bunları anladınız mı?",
+      "Anladıysanız, kendi özgür iradenizle polis memuruyla birlikte gelmeyi kabul ediyor musunuz?"
+    ]
+  },
+  "consular": [
+    "Yakalandığınızın ülkenizin konsolosluk görevlisine bildirilmesini talep etme hakkınız vardır.",
+    "Ayrıca Kore Cumhuriyeti mevzuatının izin verdiği ölçüde ülkenizin konsolosluk görevlisine mektup gönderme hakkınız vardır.",
+    "Yakalandığınızı ülkenizin konsolosluk görevlisine bildirmemizi istiyor musunuz?",
+    "İstiyorsanız “Evet”, istemiyorsanız “Hayır” diye cevap verin."
+  ],
+  "consularMandatory": [
+    "Kore Cumhuriyeti ile Çin Halk Cumhuriyeti arasındaki Konsolosluk Anlaşması uyarınca, yakalandığınız isteğinize bakılmaksızın Çin Halk Cumhuriyeti konsolosluk görevlisine bildirilecektir.",
+    "Ayrıca Kore Cumhuriyeti mevzuatının izin verdiği ölçüde ülkenizin konsolosluk görevlisine mektup gönderme hakkınız vardır."
+  ],
+  "yes": "Evet",
+  "no": "Hayır"
+}

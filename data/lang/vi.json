@@ -4,7 +4,7 @@
   "arrest": "Bạn bị bắt quả tang vì bị tình nghi {crime}.",
   "crimes": {
     "theft": "trộm cắp tài sản", "robbery": "cướp tài sản", "assault": "hành hung người khác", "injury": "cố ý gây thương tích", "fraud": "lừa đảo",
-    "drugs": "vi phạm Luật quản lý ma túy", "dui": "lái xe khi say rượu", "sexual_assault": "cưỡng ép có hành vi dâm ô",
+    "drugs": "vi phạm Luật quản lý ma túy", "dui": "lái xe khi say rượu", "sexual_assault": "dâm ô bằng vũ lực",
     "immigration": "vi phạm Luật quản lý xuất nhập cảnh", "obstruction": "chống người thi hành công vụ", "general": "phạm tội"
   },
   "rights": [
@@ -25,7 +25,7 @@
       "fraud": "Mục đích đi cùng: hỏi về vụ việc lừa đảo",
       "drugs": "Mục đích đi cùng: hỏi về vụ việc vi phạm Luật quản lý ma túy",
       "dui": "Mục đích đi cùng: hỏi về vụ việc lái xe khi say rượu",
-      "sexual_assault": "Mục đích đi cùng: hỏi về vụ việc cưỡng ép có hành vi dâm ô",
+      "sexual_assault": "Mục đích đi cùng: hỏi về vụ việc dâm ô bằng vũ lực",
       "immigration": "Mục đích đi cùng: hỏi về vụ việc vi phạm Luật quản lý xuất nhập cảnh",
       "obstruction": "Mục đích đi cùng: hỏi về vụ việc chống người thi hành công vụ",
       "general": "Mục đích đi cùng: hỏi về vụ việc phạm tội"

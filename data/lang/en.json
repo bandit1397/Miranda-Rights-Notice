@@ -1,7 +1,7 @@
 {
   "reviewed": false,
   "titles": { "miranda": "Notice of Your Rights", "voluntary": "Request for Voluntary Accompaniment", "consular": "Consular Notification" },
-  "arrest": "You are under arrest for {crime} as you were caught in the act.",
+  "arrest": "You are under arrest on suspicion of {crime}, as you were caught in the act.",
   "crimes": {
     "theft": "theft", "robbery": "robbery", "assault": "assault", "injury": "causing bodily injury", "fraud": "fraud",
     "drugs": "a drug offense", "dui": "drunk driving", "sexual_assault": "indecent assault",

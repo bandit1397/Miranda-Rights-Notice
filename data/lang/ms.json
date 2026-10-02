@@ -1,0 +1,57 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Notis Hak Anda", "voluntary": "Permintaan untuk Mengikut Secara Sukarela", "consular": "Pemberitahuan kepada Pegawai Konsular" },
+  "arrest": "Anda ditangkap ketika sedang melakukan kesalahan kerana disyaki terlibat dalam {crime}.",
+  "crimes": {
+    "theft": "kecurian", "robbery": "rompakan", "assault": "serangan", "injury": "perbuatan mendatangkan cedera", "fraud": "penipuan",
+    "drugs": "kesalahan dadah", "dui": "pemanduan dalam keadaan mabuk", "sexual_assault": "perbuatan mencabul secara paksa",
+    "immigration": "pelanggaran Akta Imigresen", "obstruction": "perbuatan menghalang penjawat awam menjalankan tugas", "general": "jenayah"
+  },
+  "rights": [
+    "Anda berhak melantik peguam dan mendapatkan bantuan peguam.",
+    "Anda berhak memberikan penjelasan untuk membela diri.",
+    "Anda berhak enggan memberikan keterangan.",
+    "Dan anda berhak memohon supaya mahkamah menyemak kesahan penangkapan anda."
+  ],
+  "voluntary": {
+    "identity": "Saya pegawai polis {name} dari {unit}.",
+    "identityAudio": "Saya pegawai polis. Unit dan nama saya dipaparkan pada skrin ini dan pada kad kuasa polis saya.",
+    "request": "Untuk mengemukakan soalan kepada anda, saya meminta anda mengikut saya seperti yang berikut.",
+    "purposes": {
+      "theft": "Tujuan: menyoal anda berkaitan kes kecurian",
+      "robbery": "Tujuan: menyoal anda berkaitan kes rompakan",
+      "assault": "Tujuan: menyoal anda berkaitan kes serangan",
+      "injury": "Tujuan: menyoal anda berkaitan kes perbuatan mendatangkan cedera",
+      "fraud": "Tujuan: menyoal anda berkaitan kes penipuan",
+      "drugs": "Tujuan: menyoal anda berkaitan kes kesalahan dadah",
+      "dui": "Tujuan: menyoal anda berkaitan kes pemanduan dalam keadaan mabuk",
+      "sexual_assault": "Tujuan: menyoal anda berkaitan kes perbuatan mencabul secara paksa",
+      "immigration": "Tujuan: menyoal anda berkaitan kes pelanggaran Akta Imigresen",
+      "obstruction": "Tujuan: menyoal anda berkaitan kes perbuatan menghalang penjawat awam menjalankan tugas",
+      "general": "Tujuan: menyoal anda berkaitan kes jenayah"
+    },
+    "reasons": { "disadvantage": "Sebab: menyoal anda di tempat ini akan merugikan anda", "traffic": "Sebab: menyoal anda di tempat ini akan menghalang lalu lintas" },
+    "place": "Tempat: {place}",
+    "places": { "substation": "unit polis kawasan", "box": "pondok polis", "station": "balai polis" },
+    "notice": [
+      "Anda boleh menolak permintaan pegawai polis untuk mengikutnya.",
+      "Walaupun anda bersetuju untuk mengikut, anda bebas berpisah pada bila-bila masa semasa dalam perjalanan, dan juga bebas meninggalkan tempat yang dituju.",
+      "Jika anda mengikut, anda akan diberi peluang untuk memaklumkan identiti pegawai polis, tempat yang dituju, serta tujuan dan sebab anda mengikut kepada keluarga, saudara-mara atau orang lain, atau untuk menghubungi mereka sendiri dengan segera.",
+      "Selain itu, anda berhak mendapatkan bantuan peguam.",
+      "Adakah anda memahami semua perkara ini?",
+      "Jika ya, adakah anda bersetuju untuk mengikut pegawai polis atas kerelaan anda sendiri?"
+    ]
+  },
+  "consular": [
+    "Anda berhak meminta supaya pegawai konsular negara anda dimaklumkan bahawa anda telah ditangkap.",
+    "Anda juga berhak menghantar surat kepada pegawai konsular negara anda, setakat yang dibenarkan oleh undang-undang Republik Korea.",
+    "Adakah anda mahu kami memaklumkan pegawai konsular negara anda bahawa anda telah ditangkap?",
+    "Jika mahu, sila jawab “Ya”; jika tidak, sila jawab “Tidak”."
+  ],
+  "consularMandatory": [
+    "Menurut Perjanjian Konsular antara Republik Korea dan Republik Rakyat China, pegawai konsular Republik Rakyat China akan dimaklumkan bahawa anda telah ditangkap, tanpa mengira kehendak anda.",
+    "Anda juga berhak menghantar surat kepada pegawai konsular negara anda, setakat yang dibenarkan oleh undang-undang Republik Korea."
+  ],
+  "yes": "Ya",
+  "no": "Tidak"
+}

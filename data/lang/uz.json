@@ -30,7 +30,7 @@
       "obstruction": "Maqsad: mansabdor shaxsning xizmat vazifasini bajarishiga toʻsqinlik qilish ishi yuzasidan savollar berish",
       "general": "Maqsad: jinoyat sodir etish ishi yuzasidan savollar berish"
     },
-    "reasons": { "disadvantage": "Sabab: bu joyda savol berish siz uchun noqulay boʻlgani sababli", "traffic": "Sabab: bu joyda savol berish yoʻl harakatiga xalaqit bergani sababli" },
+    "reasons": { "disadvantage": "Sabab: bu joyda savol berish siz uchun zararli boʻlgani sababli", "traffic": "Sabab: bu joyda savol berish yoʻl harakatiga xalaqit bergani sababli" },
     "place": "Boriladigan joy: {place}",
     "places": { "substation": "hududiy politsiya boʻlinmasi", "box": "politsiya posti", "station": "politsiya boʻlimi" },
     "notice": [
