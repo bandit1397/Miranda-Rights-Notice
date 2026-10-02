@@ -13,14 +13,35 @@
     "Anda berhak menolak memberikan keterangan.",
     "Dan Anda berhak meminta pengadilan untuk memeriksa keabsahan penangkapan Anda."
   ],
-  "voluntary": [
-    "Saya adalah petugas polisi.",
-    "Saya meminta Anda ikut bersama saya ke kantor polisi untuk dimintai keterangan.",
-    "Ini tidak wajib. Anda berhak menolak.",
-    "Meskipun Anda ikut, Anda boleh meninggalkan kantor polisi kapan saja.",
-    "Anda dapat menghubungi keluarga atau kenalan Anda, dan mendapatkan bantuan pengacara.",
-    "Apakah Anda bersedia ikut bersama kami secara sukarela? Silakan jawab ya atau tidak."
-  ],
+  "voluntary": {
+    "identity": "Saya adalah petugas polisi {name} dari {unit}.",
+    "identityAudio": "Saya adalah petugas polisi. Satuan dan nama saya tertera di layar ini dan di kartu identitas polisi saya.",
+    "request": "Untuk mengajukan pertanyaan kepada Anda, saya meminta Anda ikut bersama saya sebagai berikut.",
+    "purposes": {
+      "theft": "Tujuan: meminta keterangan terkait perkara pencurian",
+      "robbery": "Tujuan: meminta keterangan terkait perkara perampokan",
+      "assault": "Tujuan: meminta keterangan terkait perkara kekerasan terhadap orang",
+      "injury": "Tujuan: meminta keterangan terkait perkara penganiayaan yang menyebabkan luka",
+      "fraud": "Tujuan: meminta keterangan terkait perkara penipuan",
+      "drugs": "Tujuan: meminta keterangan terkait perkara pelanggaran undang-undang narkotika",
+      "dui": "Tujuan: meminta keterangan terkait perkara mengemudi dalam keadaan mabuk",
+      "sexual_assault": "Tujuan: meminta keterangan terkait perkara pencabulan dengan kekerasan",
+      "immigration": "Tujuan: meminta keterangan terkait perkara pelanggaran undang-undang keimigrasian",
+      "obstruction": "Tujuan: meminta keterangan terkait perkara perbuatan menghalangi petugas yang sedang bertugas",
+      "general": "Tujuan: meminta keterangan terkait perkara tindak pidana"
+    },
+    "reasons": { "disadvantage": "Alasan: karena meminta keterangan di tempat ini dapat merugikan Anda", "traffic": "Alasan: karena meminta keterangan di tempat ini dapat mengganggu lalu lintas" },
+    "place": "Tempat tujuan: {place}",
+    "places": { "substation": "unit polisi wilayah", "box": "pos polisi", "station": "kantor polisi" },
+    "notice": [
+      "Anda dapat menolak permintaan petugas polisi untuk ikut bersama.",
+      "Meskipun Anda setuju untuk ikut, Anda bebas memisahkan diri kapan saja selama perjalanan, dan juga bebas meninggalkan tempat yang dituju.",
+      "Jika Anda ikut, kami akan memberitahukan identitas petugas polisi, tempat tujuan, serta tujuan dan alasan ikut bersama kepada keluarga, kerabat, atau orang lain, atau memberi Anda kesempatan untuk segera menghubungi mereka sendiri.",
+      "Selain itu, Anda berhak mendapatkan bantuan pengacara.",
+      "Apakah Anda memahami semua hal ini?",
+      "Jika ya, apakah Anda setuju untuk ikut bersama petugas polisi atas kemauan Anda sendiri secara sukarela?"
+    ]
+  },
   "consular": [
     "Sebagai warga negara asing, Anda berhak meminta agar konsulat negara Anda diberi tahu tentang penangkapan Anda.",
     "Anda juga dapat berkomunikasi dengan pejabat konsuler dan menerima kunjungan mereka.",

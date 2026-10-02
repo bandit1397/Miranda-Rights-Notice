@@ -34,7 +34,17 @@ def segments(lang, crimes):
     for c in crimes:
         out[f"arrest_{c['id']}"] = lang["arrest"].replace("{crime}", lang["crimes"][c["id"]])
     out["rights"] = " ".join(lang["rights"])
-    out["voluntary"] = " ".join(lang["voluntary"])
+    # 임의동행: 소속·이름·장소명은 화면에만 표시하므로 음성은 공통 문장으로 만든다
+    v = lang["voluntary"]
+    out["vol_identity"] = v["identityAudio"]
+    out["vol_request"] = v["request"]
+    for k, t in v["purposes"].items():
+        out[f"vol_purpose_{k}"] = t
+    for k, t in v["reasons"].items():
+        out[f"vol_reason_{k}"] = t
+    for k, t in v["places"].items():
+        out[f"vol_place_{k}"] = v["place"].replace("{place}", t)
+    out["vol_notice"] = " ".join(v["notice"])
     out["consular"] = " ".join(lang["consular"])
     if lang.get("consularMandatory"):
         out["consular_mandatory"] = " ".join(lang["consularMandatory"])

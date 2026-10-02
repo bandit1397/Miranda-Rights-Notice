@@ -13,14 +13,35 @@
     "Siz koʻrsatma berishdan bosh tortish huquqiga egasiz.",
     "Shuningdek, siz ushlab turishning qonuniyligini sud tomonidan tekshirishni talab qilish huquqiga egasiz."
   ],
-  "voluntary": [
-    "Men politsiya xodimiman.",
-    "Soʻroq uchun men bilan politsiya boʻlimiga borishingizni soʻrayman.",
-    "Bu majburiy emas. Siz rad etish huquqiga egasiz.",
-    "Biz bilan borgan taqdirda ham, istalgan vaqtda politsiya boʻlimidan chiqib ketishingiz mumkin.",
-    "Siz oilangiz yoki tanishlaringiz bilan bogʻlanishingiz va advokat yordamini olishingiz mumkin.",
-    "Biz bilan ixtiyoriy ravishda borishga rozimisiz? Iltimos, ha yoki yoʻq deb javob bering."
-  ],
+  "voluntary": {
+    "identity": "Men — {unit} politsiya xodimi {name}.",
+    "identityAudio": "Men politsiya xodimiman. Mening boʻlinmam va ismim ushbu ekranda va politsiya guvohnomamda koʻrsatilgan.",
+    "request": "Sizga savollar berish uchun quyidagicha men bilan birga borishingizni soʻrayman.",
+    "purposes": {
+      "theft": "Maqsad: oʻgʻirlik ishi yuzasidan savollar berish",
+      "robbery": "Maqsad: bosqinchilik ishi yuzasidan savollar berish",
+      "assault": "Maqsad: urib-doʻpposlash ishi yuzasidan savollar berish",
+      "injury": "Maqsad: tan jarohati yetkazish ishi yuzasidan savollar berish",
+      "fraud": "Maqsad: firibgarlik ishi yuzasidan savollar berish",
+      "drugs": "Maqsad: giyohvandlik vositalari toʻgʻrisidagi qonunni buzish ishi yuzasidan savollar berish",
+      "dui": "Maqsad: mast holda transport vositasini boshqarish ishi yuzasidan savollar berish",
+      "sexual_assault": "Maqsad: zoʻrlik bilan nomaqbul harakatlar qilish ishi yuzasidan savollar berish",
+      "immigration": "Maqsad: immigratsiya qonunini buzish ishi yuzasidan savollar berish",
+      "obstruction": "Maqsad: mansabdor shaxsning xizmat vazifasini bajarishiga toʻsqinlik qilish ishi yuzasidan savollar berish",
+      "general": "Maqsad: jinoyat sodir etish ishi yuzasidan savollar berish"
+    },
+    "reasons": { "disadvantage": "Sabab: bu joyda savol berish siz uchun noqulay boʻlgani sababli", "traffic": "Sabab: bu joyda savol berish yoʻl harakatiga xalaqit bergani sababli" },
+    "place": "Boriladigan joy: {place}",
+    "places": { "substation": "hududiy politsiya boʻlinmasi", "box": "politsiya posti", "station": "politsiya boʻlimi" },
+    "notice": [
+      "Siz politsiya xodimining birga borish talabini rad etishingiz mumkin.",
+      "Birga borishga rozi boʻlsangiz ham, yoʻlda istalgan vaqtda erkin ajralib ketishingiz va borilgan joydan ham erkin chiqib ketishingiz mumkin.",
+      "Birga borganingizda, oilangiz, qarindoshlaringiz yoki boshqa yaqinlaringizga politsiya xodimining shaxsi, boriladigan joy, birga borish maqsadi va sababi haqida xabar beriladi yoki sizga ular bilan darhol oʻzingiz bogʻlanish imkoniyati beriladi.",
+      "Shuningdek, siz advokat yordamidan foydalanish huquqiga egasiz.",
+      "Bu mazmunning barchasini tushundingizmi?",
+      "Agar tushungan boʻlsangiz, politsiya xodimi bilan oʻz ixtiyoringiz bilan birga borishga rozimisiz?"
+    ]
+  },
   "consular": [
     "Chet el fuqarosi sifatida siz ushlanganingiz haqida mamlakatingiz konsulligiga xabar berilishini talab qilish huquqiga egasiz.",
     "Shuningdek, konsullik xodimlari bilan aloqa qilishingiz va ular bilan uchrashishingiz mumkin.",

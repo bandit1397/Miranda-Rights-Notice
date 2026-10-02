@@ -34,6 +34,26 @@
     <div class="chips" id="crimes"></div>
   </section>
 
+  <section id="volSec" hidden>
+    <h2><span class="step">3</span>경찰관 정보 <small class="hint">이 기기에만 저장됩니다</small></h2>
+    <div class="fields">
+      <label>소속 <input id="unit" class="field" placeholder="예: 서울○○경찰서 ○○지구대" autocomplete="off"></label>
+      <label>소속 영문 <small>(선택)</small> <input id="unitRoman" class="field" placeholder="예: ○○ Police Substation" autocomplete="off"></label>
+      <label>이름 <input id="name" class="field" placeholder="예: 홍길동" autocomplete="off"></label>
+      <label>이름 로마자 <small>(권장)</small> <input id="nameRoman" class="field" placeholder="예: Hong Gil-dong" autocomplete="off"></label>
+    </div>
+
+    <h2><span class="step">4</span>동행 목적 <small class="hint">○○ 사건에 관한 질문</small></h2>
+    <div class="chips" id="purposes"></div>
+
+    <h2 class="gap"><span class="step">5</span>동행 이유 <small class="hint">경찰관 직무집행법 제3조 제2항</small></h2>
+    <div class="chips" id="reasons"></div>
+
+    <h2 class="gap"><span class="step">6</span>동행 장소</h2>
+    <div class="chips" id="places"></div>
+    <input id="placeName" class="field gap-s" placeholder="장소 이름 (선택, 예: ○○지구대)" autocomplete="off">
+  </section>
+
   <section id="mandSec" hidden>
     <label class="check">
       <input type="checkbox" id="mandatory">

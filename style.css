@@ -74,10 +74,16 @@ h2 { font-size: 1rem; margin: 0 0 10px; display: flex; align-items: center; gap:
 .mode small { color: var(--muted); font-size: .8rem; }
 [aria-pressed="true"] { border-color: var(--accent); background: var(--sel); }
 
-#langSearch {
+#langSearch, .field {
   width: 100%; padding: 10px 12px; margin-bottom: 10px;
   border: 1px solid var(--line); border-radius: 10px; background: var(--card);
 }
+.fields { display: grid; grid-template-columns: 1fr 1fr; gap: 0 10px; margin-bottom: 12px; }
+.fields label { font-size: .9rem; color: var(--muted); }
+.fields .field { margin-top: 4px; color: var(--ink); }
+.hint { color: var(--muted); font-weight: 400; font-size: .8rem; }
+.gap { margin-top: 18px; }
+.gap-s { margin-top: 10px; }
 .langs { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
 .lang { padding: 10px 12px; display: flex; gap: 10px; align-items: center; min-height: 56px; }
 .lang .flag { font-size: 1.4rem; line-height: 1; }
@@ -109,6 +115,9 @@ h2 { font-size: 1rem; margin: 0 0 10px; display: flex; align-items: center; gap:
 .seg { padding: 8px 0; border-radius: 8px; transition: background .2s; }
 .seg + .seg { border-top: 1px dashed var(--line); }
 .seg.active { background: var(--hl); }
+.seg.item { padding: 2px 0; }
+.seg.item + .seg.item { border-top: 0; }
+.seg.item p { margin: 4px 0; padding-inline-start: 12px; border-inline-start: 4px solid var(--accent); }
 .seg p { margin: 8px 0; font-size: 1.35rem; line-height: 1.55; }
 
 .controls { margin: 16px 0; }
@@ -132,5 +141,6 @@ h2 { font-size: 1rem; margin: 0 0 10px; display: flex; align-items: center; gap:
 @media (max-width: 480px) {
   .modes { grid-template-columns: 1fr; }
   .mode { min-height: 0; }
+  .fields { grid-template-columns: 1fr; }
   .seg p { font-size: 1.2rem; }
 }

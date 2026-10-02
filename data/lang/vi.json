@@ -13,14 +13,35 @@
     "Bạn có quyền từ chối khai báo.",
     "Và bạn có quyền yêu cầu tòa án xem xét tính hợp pháp của việc bắt giữ."
   ],
-  "voluntary": [
-    "Tôi là cảnh sát.",
-    "Tôi đề nghị bạn cùng đi đến đồn cảnh sát để phục vụ điều tra.",
-    "Việc này không bắt buộc. Bạn có quyền từ chối.",
-    "Dù đã đi cùng, bạn vẫn có thể rời khỏi đồn cảnh sát bất cứ lúc nào.",
-    "Bạn có thể liên lạc với gia đình hoặc người quen, và có thể nhận sự trợ giúp của luật sư.",
-    "Bạn có tự nguyện đi cùng chúng tôi không? Hãy trả lời có hoặc không."
-  ],
+  "voluntary": {
+    "identity": "Tôi là cảnh sát {name}, thuộc {unit}.",
+    "identityAudio": "Tôi là cảnh sát. Đơn vị công tác và họ tên của tôi được hiển thị trên màn hình này và trên thẻ cảnh sát của tôi.",
+    "request": "Để hỏi bạn một số câu hỏi, tôi đề nghị bạn đi cùng tôi theo nội dung dưới đây.",
+    "purposes": {
+      "theft": "Mục đích đi cùng: hỏi về vụ việc trộm cắp tài sản",
+      "robbery": "Mục đích đi cùng: hỏi về vụ việc cướp tài sản",
+      "assault": "Mục đích đi cùng: hỏi về vụ việc hành hung người khác",
+      "injury": "Mục đích đi cùng: hỏi về vụ việc cố ý gây thương tích",
+      "fraud": "Mục đích đi cùng: hỏi về vụ việc lừa đảo",
+      "drugs": "Mục đích đi cùng: hỏi về vụ việc vi phạm Luật quản lý ma túy",
+      "dui": "Mục đích đi cùng: hỏi về vụ việc lái xe khi say rượu",
+      "sexual_assault": "Mục đích đi cùng: hỏi về vụ việc cưỡng ép có hành vi dâm ô",
+      "immigration": "Mục đích đi cùng: hỏi về vụ việc vi phạm Luật quản lý xuất nhập cảnh",
+      "obstruction": "Mục đích đi cùng: hỏi về vụ việc chống người thi hành công vụ",
+      "general": "Mục đích đi cùng: hỏi về vụ việc phạm tội"
+    },
+    "reasons": { "disadvantage": "Lý do đi cùng: vì việc hỏi bạn tại địa điểm này sẽ bất lợi cho bạn", "traffic": "Lý do đi cùng: vì việc hỏi bạn tại địa điểm này sẽ gây cản trở giao thông" },
+    "place": "Địa điểm đi cùng: {place}",
+    "places": { "substation": "trạm cảnh sát khu vực", "box": "đồn cảnh sát", "station": "sở cảnh sát" },
+    "notice": [
+      "Bạn có thể từ chối yêu cầu đi cùng của cảnh sát.",
+      "Ngay cả khi đồng ý đi cùng, bạn vẫn có thể tự do rời đi bất cứ lúc nào trong quá trình đi cùng, và cũng có thể tự do rời khỏi nơi đã đến.",
+      "Khi đi cùng, chúng tôi sẽ thông báo cho gia đình, người thân hoặc người khác của bạn về thân phận của cảnh sát, địa điểm đi cùng, mục đích và lý do đi cùng, hoặc tạo cơ hội để bạn trực tiếp liên lạc ngay với họ.",
+      "Ngoài ra, bạn có quyền được luật sư trợ giúp.",
+      "Bạn đã hiểu tất cả những nội dung này chưa?",
+      "Nếu vậy, bạn có đồng ý tự nguyện đi cùng cảnh sát không?"
+    ]
+  },
   "consular": [
     "Là người nước ngoài, bạn có quyền yêu cầu thông báo việc bạn bị bắt cho cơ quan lãnh sự của nước bạn.",
     "Bạn cũng có thể liên lạc và được viên chức lãnh sự đến thăm.",

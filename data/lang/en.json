@@ -13,14 +13,35 @@
     "You have the right to remain silent.",
     "And you have the right to request a court review of your arrest."
   ],
-  "voluntary": [
-    "I am a police officer.",
-    "I am asking you to come with me to the police station for questioning.",
-    "This is not mandatory. You have the right to refuse.",
-    "Even if you come with us, you may leave the police station at any time.",
-    "You may contact your family or friends, and you may receive assistance from a lawyer.",
-    "Will you come with us voluntarily? Please answer yes or no."
-  ],
+  "voluntary": {
+    "identity": "I am police officer {name} of {unit}.",
+    "identityAudio": "I am a police officer. My unit and name are shown on this screen and on my police ID card.",
+    "request": "In order to ask you questions, I am asking you to accompany me as follows.",
+    "purposes": {
+      "theft": "Purpose: to ask you questions in connection with theft",
+      "robbery": "Purpose: to ask you questions in connection with robbery",
+      "assault": "Purpose: to ask you questions in connection with assault",
+      "injury": "Purpose: to ask you questions in connection with causing bodily injury",
+      "fraud": "Purpose: to ask you questions in connection with fraud",
+      "drugs": "Purpose: to ask you questions in connection with a drug offense",
+      "dui": "Purpose: to ask you questions in connection with drunk driving",
+      "sexual_assault": "Purpose: to ask you questions in connection with indecent assault",
+      "immigration": "Purpose: to ask you questions in connection with violating the Immigration Act",
+      "obstruction": "Purpose: to ask you questions in connection with obstructing a public official in the performance of duty",
+      "general": "Purpose: to ask you questions in connection with a crime"
+    },
+    "reasons": { "disadvantage": "Reason: questioning you at this location would be disadvantageous to you", "traffic": "Reason: questioning you at this location would obstruct traffic" },
+    "place": "Place: {place}",
+    "places": { "substation": "police substation", "box": "police box", "station": "police station" },
+    "notice": [
+      "You have the right to refuse my request to accompany me.",
+      "Even if you agree to accompany me, you are free to leave at any time while accompanying me, and you are also free to leave the place where we go.",
+      "If you accompany me, you will be given the opportunity to have your family, relatives, or others informed of the police officer's identity, the place, and the purpose and reason for accompanying me, or to contact them yourself immediately.",
+      "You also have the right to the assistance of a lawyer.",
+      "Do you understand all of these rights?",
+      "If so, do you voluntarily agree to accompany me of your own free will?"
+    ]
+  },
   "consular": [
     "As a foreign national, you have the right to request that the consulate of your country be notified of your arrest.",
     "You may also communicate with consular officers and receive visits from them.",

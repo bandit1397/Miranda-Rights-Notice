@@ -13,14 +13,35 @@
     "Usted tiene derecho a guardar silencio.",
     "Y usted tiene derecho a solicitar que un tribunal revise la legalidad de su arresto."
   ],
-  "voluntary": [
-    "Soy agente de policía.",
-    "Le pido que me acompañe a la comisaría para una entrevista.",
-    "Esto no es obligatorio. Usted tiene derecho a negarse.",
-    "Aunque nos acompañe, puede salir de la comisaría en cualquier momento.",
-    "Puede contactar a su familia o conocidos, y puede recibir la asistencia de un abogado.",
-    "¿Acepta acompañarnos voluntariamente? Por favor, responda sí o no."
-  ],
+  "voluntary": {
+    "identity": "Soy agente de policía {name}, de {unit}.",
+    "identityAudio": "Soy agente de policía. Mi unidad y mi nombre aparecen en esta pantalla y en mi identificación policial.",
+    "request": "Para hacerle algunas preguntas, le solicito que me acompañe en los siguientes términos.",
+    "purposes": {
+      "theft": "Finalidad: hacerle preguntas en relación con un hurto",
+      "robbery": "Finalidad: hacerle preguntas en relación con un robo con violencia",
+      "assault": "Finalidad: hacerle preguntas en relación con una agresión",
+      "injury": "Finalidad: hacerle preguntas en relación con unas lesiones",
+      "fraud": "Finalidad: hacerle preguntas en relación con una estafa",
+      "drugs": "Finalidad: hacerle preguntas en relación con un delito contra la ley de drogas",
+      "dui": "Finalidad: hacerle preguntas en relación con un caso de conducción en estado de ebriedad",
+      "sexual_assault": "Finalidad: hacerle preguntas en relación con una agresión sexual",
+      "immigration": "Finalidad: hacerle preguntas en relación con una infracción de la Ley de Inmigración",
+      "obstruction": "Finalidad: hacerle preguntas en relación con una obstrucción a la autoridad en el ejercicio de sus funciones",
+      "general": "Finalidad: hacerle preguntas en relación con la comisión de un delito"
+    },
+    "reasons": { "disadvantage": "Motivo: hacerle preguntas en este lugar le resultaría desfavorable", "traffic": "Motivo: hacerle preguntas en este lugar obstaculizaría el tráfico" },
+    "place": "Lugar: {place}",
+    "places": { "substation": "puesto policial de distrito", "box": "puesto de policía", "station": "comisaría" },
+    "notice": [
+      "Usted puede negarse a la solicitud del agente de policía de acompañarle.",
+      "Aunque acepte acompañarme, puede separarse libremente en cualquier momento durante el trayecto, y también puede marcharse libremente del lugar al que vayamos.",
+      "Si me acompaña, se le dará la oportunidad de que se informe a su familia, parientes u otras personas de la identidad del agente, el lugar, y la finalidad y el motivo del acompañamiento, o de contactarlos usted mismo de inmediato.",
+      "Además, tiene derecho a la asistencia de un abogado.",
+      "¿Ha entendido todo lo anterior?",
+      "Si es así, ¿acepta acompañar al agente de policía por su propia voluntad?"
+    ]
+  },
   "consular": [
     "Como persona extranjera, usted tiene derecho a solicitar que se notifique su arresto al consulado de su país.",
     "También puede comunicarse con los funcionarios consulares y recibir sus visitas.",

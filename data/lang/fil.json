@@ -13,14 +13,35 @@
     "May karapatan kang manahimik.",
     "At may karapatan kang humiling sa korte na suriin ang legalidad ng iyong pagkakaaresto."
   ],
-  "voluntary": [
-    "Ako ay isang pulis.",
-    "Hinihiling ko na sumama ka sa akin sa istasyon ng pulis para sa imbestigasyon.",
-    "Hindi ito sapilitan. May karapatan kang tumanggi.",
-    "Kahit sumama ka, maaari kang umalis sa istasyon ng pulis anumang oras.",
-    "Maaari kang makipag-ugnayan sa iyong pamilya o kakilala, at maaari kang tumanggap ng tulong mula sa abogado.",
-    "Kusang-loob ka bang sasama sa amin? Pakisagot ng oo o hindi."
-  ],
+  "voluntary": {
+    "identity": "Ako si {name}, pulis mula sa {unit}.",
+    "identityAudio": "Ako ay isang pulis. Ang aking yunit at pangalan ay nakasulat sa screen na ito at sa aking police ID.",
+    "request": "Upang matanong kita, hinihiling ko na sumama ka sa akin gaya ng nakasaad sa ibaba.",
+    "purposes": {
+      "theft": "Layunin: pagtatanong kaugnay ng kasong pagnanakaw",
+      "robbery": "Layunin: pagtatanong kaugnay ng kasong panloloob na may dahas",
+      "assault": "Layunin: pagtatanong kaugnay ng kasong pananakit",
+      "injury": "Layunin: pagtatanong kaugnay ng kasong pananakit na nagdulot ng pinsala sa katawan",
+      "fraud": "Layunin: pagtatanong kaugnay ng kasong panloloko",
+      "drugs": "Layunin: pagtatanong kaugnay ng kasong paglabag sa batas sa droga",
+      "dui": "Layunin: pagtatanong kaugnay ng kasong pagmamaneho nang lasing",
+      "sexual_assault": "Layunin: pagtatanong kaugnay ng kasong sapilitang malaswang gawain",
+      "immigration": "Layunin: pagtatanong kaugnay ng kasong paglabag sa batas sa imigrasyon",
+      "obstruction": "Layunin: pagtatanong kaugnay ng kasong paghadlang sa opisyal na gumaganap ng tungkulin",
+      "general": "Layunin: pagtatanong kaugnay ng kasong paggawa ng krimen"
+    },
+    "reasons": { "disadvantage": "Dahilan: dahil ang pagtatanong sa lugar na ito ay maaaring makasama sa iyo", "traffic": "Dahilan: dahil ang pagtatanong sa lugar na ito ay makakaabala sa trapiko" },
+    "place": "Pupuntahan: {place}",
+    "places": { "substation": "sangay na himpilan ng pulisya", "box": "maliit na himpilan ng pulisya", "station": "himpilan ng pulisya" },
+    "notice": [
+      "Maaari mong tanggihan ang kahilingan ng pulis na sumama ka.",
+      "Kahit pumayag kang sumama, malaya kang humiwalay anumang oras habang nasa daan, at malaya ka ring umalis sa lugar na pinuntahan.",
+      "Kapag sumama ka, ipapaalam namin sa iyong pamilya, kamag-anak, o iba pa ang pagkakakilanlan ng pulis, ang lugar na pupuntahan, at ang layunin at dahilan ng pagsama, o bibigyan ka ng pagkakataong agad silang kontakin nang ikaw mismo.",
+      "Bukod dito, may karapatan kang matulungan ng isang abogado.",
+      "Naiintindihan mo ba ang lahat ng ito?",
+      "Kung gayon, pumapayag ka bang kusang-loob na sumama sa pulis?"
+    ]
+  },
   "consular": [
     "Bilang isang dayuhan, may karapatan kang hilingin na ipaalam ang iyong pagkakaaresto sa konsulado ng iyong bansa.",
     "Maaari ka ring makipag-ugnayan sa mga opisyal ng konsulado at tumanggap ng kanilang pagbisita.",

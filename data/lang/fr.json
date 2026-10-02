@@ -13,14 +13,35 @@
     "Vous avez le droit de garder le silence.",
     "Et vous avez le droit de demander à un tribunal de contrôler la légalité de votre arrestation."
   ],
-  "voluntary": [
-    "Je suis agent de police.",
-    "Je vous demande de m'accompagner au commissariat pour une audition.",
-    "Ce n'est pas obligatoire. Vous avez le droit de refuser.",
-    "Même si vous nous accompagnez, vous pouvez quitter le commissariat à tout moment.",
-    "Vous pouvez contacter votre famille ou vos proches, et bénéficier de l'assistance d'un avocat.",
-    "Acceptez-vous de nous accompagner volontairement ? Veuillez répondre oui ou non."
-  ],
+  "voluntary": {
+    "identity": "Je suis {name}, agent de police au sein de {unit}.",
+    "identityAudio": "Je suis agent de police. Mon unité et mon nom sont affichés sur cet écran et sur ma carte professionnelle de police.",
+    "request": "Afin de vous poser des questions, je vous demande de m'accompagner dans les conditions suivantes.",
+    "purposes": {
+      "theft": "Objet : vous poser des questions concernant un vol",
+      "robbery": "Objet : vous poser des questions concernant un vol avec violence",
+      "assault": "Objet : vous poser des questions concernant des violences volontaires",
+      "injury": "Objet : vous poser des questions concernant des coups et blessures",
+      "fraud": "Objet : vous poser des questions concernant une escroquerie",
+      "drugs": "Objet : vous poser des questions concernant une infraction à la législation sur les stupéfiants",
+      "dui": "Objet : vous poser des questions concernant une conduite en état d'ivresse",
+      "sexual_assault": "Objet : vous poser des questions concernant une agression sexuelle",
+      "immigration": "Objet : vous poser des questions concernant une infraction à la loi sur l'immigration",
+      "obstruction": "Objet : vous poser des questions concernant une entrave à l'action d'un agent public dans l'exercice de ses fonctions",
+      "general": "Objet : vous poser des questions concernant une infraction pénale"
+    },
+    "reasons": { "disadvantage": "Motif : vous interroger à cet endroit vous serait défavorable", "traffic": "Motif : vous interroger à cet endroit gênerait la circulation" },
+    "place": "Lieu : {place}",
+    "places": { "substation": "poste de police de quartier", "box": "petit poste de police", "station": "commissariat de police" },
+    "notice": [
+      "Vous pouvez refuser la demande d'accompagnement de l'agent de police.",
+      "Même si vous acceptez de m'accompagner, vous êtes libre de vous en aller à tout moment pendant le trajet, et vous êtes également libre de quitter le lieu où nous nous rendons.",
+      "Si vous m'accompagnez, vous aurez la possibilité de faire informer votre famille, vos proches ou d'autres personnes de l'identité de l'agent de police, du lieu, ainsi que de l'objet et du motif de l'accompagnement, ou de les contacter vous-même immédiatement.",
+      "Par ailleurs, vous avez droit à l'assistance d'un avocat.",
+      "Avez-vous bien compris tout ce qui précède ?",
+      "Si oui, acceptez-vous, de votre plein gré, d'accompagner l'agent de police ?"
+    ]
+  },
   "consular": [
     "En tant que personne de nationalité étrangère, vous avez le droit de demander que le consulat de votre pays soit informé de votre arrestation.",
     "Vous pouvez également communiquer avec les agents consulaires et recevoir leur visite.",
