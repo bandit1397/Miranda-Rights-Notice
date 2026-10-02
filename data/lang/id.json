@@ -48,6 +48,10 @@
     "Apakah Anda ingin kami memberi tahu pejabat konsuler negara Anda bahwa Anda telah ditangkap?",
     "Jika ingin, jawablah “Ya”; jika tidak, jawablah “Tidak”."
   ],
+  "consularMandatory": [
+    "Berdasarkan Persetujuan Konsuler antara Republik Korea dan Republik Rakyat Tiongkok, pejabat konsuler Republik Rakyat Tiongkok akan diberi tahu bahwa Anda telah ditangkap, terlepas dari keinginan Anda.",
+    "Anda juga berhak mengirim surat kepada pejabat konsuler negara Anda sejauh diizinkan oleh peraturan perundang-undangan Republik Korea."
+  ],
   "yes": "Ya",
   "no": "Tidak"
 }

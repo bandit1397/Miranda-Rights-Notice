@@ -48,6 +48,10 @@
     "Gusto mo bang ipaalam namin sa isang opisyal na konsular ng iyong bansa na ikaw ay inaresto?",
     "Kung gusto mo, sabihin ang “Oo.” Kung hindi, sabihin ang “Hindi.”"
   ],
+  "consularMandatory": [
+    "Alinsunod sa Kasunduang Konsular sa pagitan ng Republika ng Korea at ng Republikang Bayan ng Tsina, ipapaalam sa isang opisyal na konsular ng Republikang Bayan ng Tsina na ikaw ay inaresto, anuman ang iyong kagustuhan.",
+    "May karapatan ka ring magpadala ng sulat sa isang opisyal na konsular ng iyong bansa, hangga't pinahihintulutan ng mga batas ng Republika ng Korea."
+  ],
   "yes": "Oo",
   "no": "Hindi"
 }

@@ -48,6 +48,10 @@
     "Souhaitez-vous que nous informions un fonctionnaire consulaire de votre pays de votre arrestation ?",
     "Si oui, répondez « Oui ». Sinon, répondez « Non »."
   ],
+  "consularMandatory": [
+    "Conformément à l'Accord consulaire entre la République de Corée et la République populaire de Chine, un fonctionnaire consulaire de la République populaire de Chine sera informé de votre arrestation, quelle que soit votre volonté.",
+    "Vous avez également le droit d'envoyer des lettres à un fonctionnaire consulaire de votre pays, dans la mesure permise par les lois de la République de Corée."
+  ],
   "yes": "Oui",
   "no": "Non"
 }

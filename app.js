@@ -84,7 +84,7 @@ function saveOfficer() {
   try { localStorage.setItem('officer', JSON.stringify(officer())); } catch {}
 }
 
-const isMandatory = () => state.mode === 'consular' && state.lang === 'zh' && $('mandatory').checked;
+const isMandatory = () => state.mode === 'consular' && $('mandatory').checked;
 const needsAnswer = () => state.mode === 'voluntary' || (state.mode === 'consular' && !isMandatory());
 const audioUrl = (code, name) => {
   const key = `${code}/${name}.mp3`;
@@ -146,7 +146,7 @@ function refresh() {
   const volReady = state.purpose && state.reason && state.place && o.unit && o.name;
   $('crimeSec').hidden = state.mode !== 'miranda';
   $('volSec').hidden = state.mode !== 'voluntary';
-  $('mandSec').hidden = !(state.mode === 'consular' && state.lang === 'zh');
+  $('mandSec').hidden = state.mode !== 'consular';
   $('startBtn').disabled = !state.lang || (state.mode === 'miranda' && !state.crime) || (state.mode === 'voluntary' && !volReady);
 }
 

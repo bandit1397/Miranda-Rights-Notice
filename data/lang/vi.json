@@ -48,6 +48,10 @@
     "Bạn có muốn chúng tôi thông báo cho viên chức lãnh sự của nước bạn về việc bạn bị bắt không?",
     "Nếu muốn thông báo, vui lòng trả lời “Có”; nếu không muốn, vui lòng trả lời “Không”."
   ],
+  "consularMandatory": [
+    "Theo Hiệp định Lãnh sự giữa Đại Hàn Dân Quốc và nước Cộng hòa Nhân dân Trung Hoa, việc bạn bị bắt sẽ được thông báo cho viên chức lãnh sự của nước Cộng hòa Nhân dân Trung Hoa, bất kể ý muốn của bạn.",
+    "Ngoài ra, trong phạm vi pháp luật Đại Hàn Dân Quốc cho phép, bạn có quyền gửi thư cho viên chức lãnh sự của nước bạn."
+  ],
   "yes": "Có",
   "no": "Không"
 }

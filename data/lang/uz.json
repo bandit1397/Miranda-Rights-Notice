@@ -48,6 +48,10 @@
     "Hibsga olinganingiz haqida mamlakatingiz konsullik xodimiga xabar berishimizni xohlaysizmi?",
     "Xabar berilishini xohlasangiz “Ha”, xohlamasangiz “Yoʻq” deb javob bering."
   ],
+  "consularMandatory": [
+    "Koreya Respublikasi va Xitoy Xalq Respublikasi oʻrtasidagi Konsullik bitimiga koʻra, hibsga olinganingiz haqida xohishingizdan qatʼi nazar Xitoy Xalq Respublikasi konsullik xodimiga xabar beriladi.",
+    "Shuningdek, Koreya Respublikasi qonunlari ruxsat bergan doirada mamlakatingiz konsullik xodimiga xat yuborish huquqiga egasiz."
+  ],
   "yes": "Ha",
   "no": "Yoʻq"
 }

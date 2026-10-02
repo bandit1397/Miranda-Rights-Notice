@@ -48,6 +48,10 @@
     "¿Desea que notifiquemos su detención a un funcionario consular de su país?",
     "Si lo desea, responda «Sí»; si no, responda «No»."
   ],
+  "consularMandatory": [
+    "De conformidad con el Acuerdo Consular entre la República de Corea y la República Popular China, su detención será notificada a un funcionario consular de la República Popular China, independientemente de su voluntad.",
+    "También tiene derecho a enviar cartas a un funcionario consular de su país, en la medida en que lo permitan las leyes de la República de Corea."
+  ],
   "yes": "Sí",
   "no": "No"
 }

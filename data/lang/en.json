@@ -48,6 +48,10 @@
     "Do you want us to notify a consular officer of your country that you have been arrested?",
     "If yes, please say “Yes.” If not, please say “No.”"
   ],
+  "consularMandatory": [
+    "Under the Consular Agreement between the Republic of Korea and the People's Republic of China, a consular officer of the People's Republic of China will be notified that you have been arrested, regardless of your wishes.",
+    "You also have the right to send a letter to a consular officer of your country, as permitted under the laws of the Republic of Korea."
+  ],
   "yes": "Yes",
   "no": "No"
 }
