@@ -106,7 +106,7 @@ function renderModes() {
     b.className = 'mode';
     b.setAttribute('aria-pressed', String(m.id === state.mode));
     b.innerHTML = `<b>${m.ko}</b><small>${m.sub}</small>`;
-    b.onclick = () => { state.mode = m.id; pressed(box, b); refresh(); };
+    b.onclick = () => { state.mode = m.id; pressed(box, b); refresh(); advance(); };
     box.appendChild(b);
   }
 }
@@ -122,7 +122,7 @@ function renderLangs(filter = '') {
     b.className = 'lang';
     b.setAttribute('aria-pressed', String(l.code === state.lang));
     b.innerHTML = `<i class="flag" aria-hidden="true">${l.flag}</i><span><b lang="${l.bcp47}">${l.name}</b><small>${l.nameKo}</small></span>`;
-    b.onclick = () => { state.lang = l.code; pressed(box, b); loadLang(l.code).catch(() => {}); refresh(); };
+    b.onclick = () => { state.lang = l.code; pressed(box, b); loadLang(l.code).catch(() => {}); refresh(); advance('langFold'); };
     box.appendChild(b);
   }
 }
@@ -136,12 +136,54 @@ function renderChips(id, items, key) {
     b.className = 'chip';
     b.setAttribute('aria-pressed', String(c.id === state[key]));
     b.textContent = c.ko;
-    b.onclick = () => { state[key] = c.id; pressed(box, b); refresh(); };
+    b.onclick = () => { state[key] = c.id; pressed(box, b); refresh(); advance(box.closest('details').id); };
     box.appendChild(b);
   }
 }
 
+/* 접이식 섹션: pick() 이 빈 문자열이면 아직 선택 안 됨 */
+const nameOf = (items, id) => (items.find((x) => x.id === id) || {}).ko || '';
+const FOLDS = [
+  { id: 'langFold', modes: ['miranda', 'voluntary', 'consular'], pick: () => {
+    const l = languages.find((x) => x.code === state.lang);
+    return l ? `${l.flag} ${l.nameKo}` : '';
+  } },
+  { id: 'crimeFold', modes: ['miranda'], pick: () => nameOf(crimes, state.crime) },
+  // 경찰관 정보는 한 번 입력하면 저장되므로 순서와 상관없이 비어 있을 때만 펼친다
+  { id: 'officerFold', modes: ['voluntary'], always: true, pick: () => {
+    const o = officer();
+    return o.unit && o.name ? `${o.unit} · ${o.name}` : '';
+  } },
+  { id: 'purposeFold', modes: ['voluntary'], pick: () => nameOf(crimes, state.purpose) },
+  { id: 'reasonFold', modes: ['voluntary'], pick: () => nameOf(REASONS, state.reason) },
+  // 장소를 고른 뒤에도 장소 이름을 입력할 수 있도록 접지 않는다
+  { id: 'placeFold', modes: ['voluntary'], stay: true, pick: () => {
+    const p = nameOf(PLACES, state.place);
+    const n = $('placeName').value.trim();
+    return p && n ? `${p} (${n})` : p;
+  } },
+];
+
+function updatePicks() {
+  for (const f of FOLDS) {
+    const el = $(f.id).querySelector('.pick');
+    const v = f.pick();
+    el.textContent = v ? `${v} ✓` : '선택 안 됨';
+    el.classList.toggle('empty', !v);
+  }
+}
+
+// 방금 고른 섹션은 접고, 아직 고르지 않은 다음 섹션을 펼친다
+function advance(from) {
+  const list = FOLDS.filter((f) => f.modes.includes(state.mode));
+  const next = list.find((f) => !f.always && !f.pick());
+  for (const f of list) {
+    $(f.id).open = f === next || (f.always && !f.pick()) || (f.stay && f.id === from);
+  }
+}
+
 function refresh() {
+  updatePicks();
   const o = officer();
   const volReady = state.purpose && state.reason && state.place && o.unit && o.name;
   $('crimeSec').hidden = state.mode !== 'miranda';
@@ -345,9 +387,11 @@ async function init() {
   renderChips('places', PLACES, 'place');
   loadOfficer();
   refresh();
+  advance();
 
   $('langSearch').oninput = (e) => renderLangs(e.target.value);
   $('mandatory').onchange = refresh;
+  $('placeName').oninput = refresh;
   for (const f of OFFICER_FIELDS) $(f).oninput = () => { saveOfficer(); refresh(); };
   $('startBtn').onclick = () => openNotice().catch(() => alert('고지문을 불러오지 못했습니다.'));
   $('backBtn').onclick = () => history.back();

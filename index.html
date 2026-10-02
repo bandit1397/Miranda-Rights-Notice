@@ -24,34 +24,59 @@
   </section>
 
   <section>
-    <h2><span class="step">2</span>언어</h2>
-    <input id="langSearch" type="search" placeholder="언어 검색 (예: 베트남, vi, Việt)" autocomplete="off">
-    <div class="langs" id="langs"></div>
+    <details class="fold" id="langFold">
+      <summary><span class="step">2</span><b>언어</b><span class="pick"></span></summary>
+      <div class="fold-body">
+        <input id="langSearch" type="search" placeholder="언어 검색 (예: 베트남, vi, Việt)" autocomplete="off">
+        <div class="langs" id="langs"></div>
+      </div>
+    </details>
   </section>
 
   <section id="crimeSec">
-    <h2><span class="step">3</span>죄명</h2>
-    <div class="chips" id="crimes"></div>
+    <details class="fold" id="crimeFold">
+      <summary><span class="step">3</span><b>죄명</b><span class="pick"></span></summary>
+      <div class="fold-body"><div class="chips" id="crimes"></div></div>
+    </details>
   </section>
 
   <section id="volSec" hidden>
-    <h2><span class="step">3</span>경찰관 정보 <small class="hint">이 기기에만 저장됩니다</small></h2>
-    <div class="fields">
-      <label>소속 <input id="unit" class="field" placeholder="예: 서울○○경찰서 ○○지구대" autocomplete="off"></label>
-      <label>소속 영문 <small>(선택)</small> <input id="unitRoman" class="field" placeholder="예: ○○ Police Substation" autocomplete="off"></label>
-      <label>이름 <input id="name" class="field" placeholder="예: 홍길동" autocomplete="off"></label>
-      <label>이름 로마자 <small>(권장)</small> <input id="nameRoman" class="field" placeholder="예: Hong Gil-dong" autocomplete="off"></label>
-    </div>
+    <details class="fold" id="officerFold">
+      <summary><span class="step">3</span><b>경찰관 정보</b><span class="pick"></span></summary>
+      <div class="fold-body">
+        <p class="hint">이 기기에만 저장됩니다</p>
+        <div class="fields">
+          <label>소속 <input id="unit" class="field" placeholder="예: 서울○○경찰서 ○○지구대" autocomplete="off"></label>
+          <label>소속 영문 <small>(선택)</small> <input id="unitRoman" class="field" placeholder="예: ○○ Police Substation" autocomplete="off"></label>
+          <label>이름 <input id="name" class="field" placeholder="예: 홍길동" autocomplete="off"></label>
+          <label>이름 로마자 <small>(권장)</small> <input id="nameRoman" class="field" placeholder="예: Hong Gil-dong" autocomplete="off"></label>
+        </div>
+      </div>
+    </details>
 
-    <h2><span class="step">4</span>동행 목적 <small class="hint">○○ 사건에 관한 질문</small></h2>
-    <div class="chips" id="purposes"></div>
+    <details class="fold" id="purposeFold">
+      <summary><span class="step">4</span><b>동행 목적</b><span class="pick"></span></summary>
+      <div class="fold-body">
+        <p class="hint">○○ 사건에 관한 질문</p>
+        <div class="chips" id="purposes"></div>
+      </div>
+    </details>
 
-    <h2 class="gap"><span class="step">5</span>동행 이유 <small class="hint">경찰관 직무집행법 제3조 제2항</small></h2>
-    <div class="chips" id="reasons"></div>
+    <details class="fold" id="reasonFold">
+      <summary><span class="step">5</span><b>동행 이유</b><span class="pick"></span></summary>
+      <div class="fold-body">
+        <p class="hint">경찰관 직무집행법 제3조 제2항</p>
+        <div class="chips" id="reasons"></div>
+      </div>
+    </details>
 
-    <h2 class="gap"><span class="step">6</span>동행 장소</h2>
-    <div class="chips" id="places"></div>
-    <input id="placeName" class="field gap-s" placeholder="장소 이름 (선택, 예: ○○지구대)" autocomplete="off">
+    <details class="fold" id="placeFold">
+      <summary><span class="step">6</span><b>동행 장소</b><span class="pick"></span></summary>
+      <div class="fold-body">
+        <div class="chips" id="places"></div>
+        <input id="placeName" class="field gap-s" placeholder="장소 이름 (선택, 예: ○○지구대)" autocomplete="off">
+      </div>
+    </details>
   </section>
 
   <section id="mandSec" hidden>

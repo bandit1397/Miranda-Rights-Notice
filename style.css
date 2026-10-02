@@ -82,7 +82,6 @@ h2 { font-size: 1rem; margin: 0 0 10px; display: flex; align-items: center; gap:
 .fields label { font-size: .9rem; color: var(--muted); }
 .fields .field { margin-top: 4px; color: var(--ink); }
 .hint { color: var(--muted); font-weight: 400; font-size: .8rem; }
-.gap { margin-top: 18px; }
 .gap-s { margin-top: 10px; }
 .langs { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
 .lang { padding: 10px 12px; display: flex; gap: 10px; align-items: center; min-height: 56px; }
@@ -90,6 +89,28 @@ h2 { font-size: 1rem; margin: 0 0 10px; display: flex; align-items: center; gap:
 .lang span { display: flex; flex-direction: column; min-width: 0; }
 .lang b { font-size: .98rem; overflow-wrap: anywhere; }
 .lang small { color: var(--muted); font-size: .8rem; }
+
+/* 접이식 선택 섹션 */
+.fold { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.fold + .fold { margin-top: 8px; }
+.fold > summary {
+  list-style: none; cursor: pointer; user-select: none;
+  display: flex; align-items: center; gap: 8px; padding: 12px 14px; min-height: 52px;
+}
+.fold > summary::-webkit-details-marker { display: none; }
+.fold > summary b { flex: none; }
+.fold > summary::after {
+  content: "▾"; flex: none; color: var(--muted); font-size: 1.1rem;
+  transition: transform .2s; transform: rotate(-90deg);
+}
+.fold[open] > summary::after { transform: none; }
+.pick {
+  flex: 1; min-width: 0; text-align: right; font-weight: 600; color: var(--accent);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.pick.empty { color: var(--muted); font-weight: 400; }
+.fold-body { padding: 0 14px 14px; }
+.fold-body .hint { margin: 0 0 10px; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip { padding: 9px 14px; border-radius: 999px; }
