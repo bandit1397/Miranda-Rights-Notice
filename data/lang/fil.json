@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "Bilang isang dayuhan, may karapatan kang hilingin na ipaalam ang iyong pagkakaaresto sa konsulado ng iyong bansa.",
-    "Maaari ka ring makipag-ugnayan sa mga opisyal ng konsulado at tumanggap ng kanilang pagbisita.",
-    "Gusto mo bang ipaalam namin ito sa iyong konsulado? Pakisagot ng oo o hindi."
+    "May karapatan kang hilingin na ipaalam namin sa isang opisyal na konsular ng iyong bansa na ikaw ay inaresto.",
+    "May karapatan ka ring magpadala ng sulat sa isang opisyal na konsular ng iyong bansa, hangga't pinahihintulutan ng mga batas ng Republika ng Korea.",
+    "Gusto mo bang ipaalam namin sa isang opisyal na konsular ng iyong bansa na ikaw ay inaresto?",
+    "Kung gusto mo, sabihin ang “Oo.” Kung hindi, sabihin ang “Hindi.”"
   ],
   "yes": "Oo",
   "no": "Hindi"

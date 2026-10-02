@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "Là người nước ngoài, bạn có quyền yêu cầu thông báo việc bạn bị bắt cho cơ quan lãnh sự của nước bạn.",
-    "Bạn cũng có thể liên lạc và được viên chức lãnh sự đến thăm.",
-    "Bạn có muốn chúng tôi thông báo cho lãnh sự quán của bạn không? Hãy trả lời có hoặc không."
+    "Bạn có quyền yêu cầu thông báo cho viên chức lãnh sự của nước bạn về việc bạn bị bắt.",
+    "Ngoài ra, trong phạm vi pháp luật Đại Hàn Dân Quốc cho phép, bạn có quyền gửi thư cho viên chức lãnh sự của nước bạn.",
+    "Bạn có muốn chúng tôi thông báo cho viên chức lãnh sự của nước bạn về việc bạn bị bắt không?",
+    "Nếu muốn thông báo, vui lòng trả lời “Có”; nếu không muốn, vui lòng trả lời “Không”."
   ],
   "yes": "Có",
   "no": "Không"

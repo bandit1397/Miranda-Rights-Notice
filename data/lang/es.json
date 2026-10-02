@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "Como persona extranjera, usted tiene derecho a solicitar que se notifique su arresto al consulado de su país.",
-    "También puede comunicarse con los funcionarios consulares y recibir sus visitas.",
-    "¿Desea que notifiquemos a su consulado? Por favor, responda sí o no."
+    "Usted tiene derecho a solicitar que notifiquemos su detención a un funcionario consular de su país.",
+    "También tiene derecho a enviar cartas a un funcionario consular de su país, en la medida en que lo permitan las leyes de la República de Corea.",
+    "¿Desea que notifiquemos su detención a un funcionario consular de su país?",
+    "Si lo desea, responda «Sí»; si no, responda «No»."
   ],
   "yes": "Sí",
   "no": "No"

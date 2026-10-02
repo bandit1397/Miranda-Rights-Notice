@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "En tant que personne de nationalité étrangère, vous avez le droit de demander que le consulat de votre pays soit informé de votre arrestation.",
-    "Vous pouvez également communiquer avec les agents consulaires et recevoir leur visite.",
-    "Souhaitez-vous que nous informions votre consulat ? Veuillez répondre oui ou non."
+    "Vous avez le droit de demander que nous informions un fonctionnaire consulaire de votre pays de votre arrestation.",
+    "Vous avez également le droit d'envoyer des lettres à un fonctionnaire consulaire de votre pays, dans la mesure permise par les lois de la République de Corée.",
+    "Souhaitez-vous que nous informions un fonctionnaire consulaire de votre pays de votre arrestation ?",
+    "Si oui, répondez « Oui ». Sinon, répondez « Non »."
   ],
   "yes": "Oui",
   "no": "Non"

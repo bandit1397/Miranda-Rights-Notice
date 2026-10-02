@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "Sebagai warga negara asing, Anda berhak meminta agar konsulat negara Anda diberi tahu tentang penangkapan Anda.",
-    "Anda juga dapat berkomunikasi dengan pejabat konsuler dan menerima kunjungan mereka.",
-    "Apakah Anda ingin kami memberi tahu konsulat Anda? Silakan jawab ya atau tidak."
+    "Anda berhak meminta agar pejabat konsuler negara Anda diberi tahu bahwa Anda telah ditangkap.",
+    "Anda juga berhak mengirim surat kepada pejabat konsuler negara Anda sejauh diizinkan oleh peraturan perundang-undangan Republik Korea.",
+    "Apakah Anda ingin kami memberi tahu pejabat konsuler negara Anda bahwa Anda telah ditangkap?",
+    "Jika ingin, jawablah “Ya”; jika tidak, jawablah “Tidak”."
   ],
   "yes": "Ya",
   "no": "Tidak"

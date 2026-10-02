@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "As a foreign national, you have the right to request that the consulate of your country be notified of your arrest.",
-    "You may also communicate with consular officers and receive visits from them.",
-    "Do you want us to notify your consulate? Please answer yes or no."
+    "You have the right to request that we notify a consular officer of your country that you have been arrested.",
+    "You also have the right to send a letter to a consular officer of your country, as permitted under the laws of the Republic of Korea.",
+    "Do you want us to notify a consular officer of your country that you have been arrested?",
+    "If yes, please say “Yes.” If not, please say “No.”"
   ],
   "yes": "Yes",
   "no": "No"

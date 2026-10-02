@@ -43,9 +43,10 @@
     ]
   },
   "consular": [
-    "Chet el fuqarosi sifatida siz ushlanganingiz haqida mamlakatingiz konsulligiga xabar berilishini talab qilish huquqiga egasiz.",
-    "Shuningdek, konsullik xodimlari bilan aloqa qilishingiz va ular bilan uchrashishingiz mumkin.",
-    "Konsulligingizga xabar berishimizni xohlaysizmi? Iltimos, ha yoki yoʻq deb javob bering."
+    "Siz hibsga olinganingiz haqida mamlakatingiz konsullik xodimiga xabar berilishini soʻrash huquqiga egasiz.",
+    "Shuningdek, Koreya Respublikasi qonunlari ruxsat bergan doirada mamlakatingiz konsullik xodimiga xat yuborish huquqiga egasiz.",
+    "Hibsga olinganingiz haqida mamlakatingiz konsullik xodimiga xabar berishimizni xohlaysizmi?",
+    "Xabar berilishini xohlasangiz “Ha”, xohlamasangiz “Yoʻq” deb javob bering."
   ],
   "yes": "Ha",
   "no": "Yoʻq"
