@@ -1,0 +1,31 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Thông báo quyền của bạn", "voluntary": "Đề nghị tự nguyện đi cùng", "consular": "Thông báo cho cơ quan lãnh sự" },
+  "arrest": "Bạn bị bắt quả tang vì bị tình nghi {crime}.",
+  "crimes": {
+    "theft": "trộm cắp tài sản", "robbery": "cướp tài sản", "assault": "hành hung người khác", "injury": "cố ý gây thương tích", "fraud": "lừa đảo",
+    "drugs": "vi phạm Luật quản lý ma túy", "dui": "lái xe khi say rượu", "sexual_assault": "cưỡng ép có hành vi dâm ô",
+    "immigration": "vi phạm Luật quản lý xuất nhập cảnh", "obstruction": "chống người thi hành công vụ", "general": "phạm tội"
+  },
+  "rights": [
+    "Bạn có quyền chọn luật sư và nhận sự trợ giúp của luật sư.",
+    "Bạn có quyền tự giải thích, bào chữa cho mình.",
+    "Bạn có quyền từ chối khai báo.",
+    "Và bạn có quyền yêu cầu tòa án xem xét tính hợp pháp của việc bắt giữ."
+  ],
+  "voluntary": [
+    "Tôi là cảnh sát.",
+    "Tôi đề nghị bạn cùng đi đến đồn cảnh sát để phục vụ điều tra.",
+    "Việc này không bắt buộc. Bạn có quyền từ chối.",
+    "Dù đã đi cùng, bạn vẫn có thể rời khỏi đồn cảnh sát bất cứ lúc nào.",
+    "Bạn có thể liên lạc với gia đình hoặc người quen, và có thể nhận sự trợ giúp của luật sư.",
+    "Bạn có tự nguyện đi cùng chúng tôi không? Hãy trả lời có hoặc không."
+  ],
+  "consular": [
+    "Là người nước ngoài, bạn có quyền yêu cầu thông báo việc bạn bị bắt cho cơ quan lãnh sự của nước bạn.",
+    "Bạn cũng có thể liên lạc và được viên chức lãnh sự đến thăm.",
+    "Bạn có muốn chúng tôi thông báo cho lãnh sự quán của bạn không? Hãy trả lời có hoặc không."
+  ],
+  "yes": "Có",
+  "no": "Không"
+}

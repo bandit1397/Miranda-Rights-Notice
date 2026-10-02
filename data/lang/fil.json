@@ -1,0 +1,31 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Abiso ng Iyong mga Karapatan", "voluntary": "Kahilingang Kusang Sumama", "consular": "Abiso sa Konsulado" },
+  "arrest": "Inaaresto ka dahil nahuli ka sa akto ng {crime}.",
+  "crimes": {
+    "theft": "pagnanakaw", "robbery": "panloloob na may dahas", "assault": "pananakit", "injury": "pananakit na nagdulot ng pinsala sa katawan", "fraud": "panloloko",
+    "drugs": "paglabag sa batas sa droga", "dui": "pagmamaneho nang lasing", "sexual_assault": "sapilitang malaswang gawain",
+    "immigration": "paglabag sa batas sa imigrasyon", "obstruction": "paghadlang sa opisyal na gumaganap ng tungkulin", "general": "paggawa ng krimen"
+  },
+  "rights": [
+    "May karapatan kang kumuha ng abogado at tumanggap ng tulong mula sa iyong abogado.",
+    "May karapatan kang magpaliwanag para sa iyong sarili.",
+    "May karapatan kang manahimik.",
+    "At may karapatan kang humiling sa korte na suriin ang legalidad ng iyong pagkakaaresto."
+  ],
+  "voluntary": [
+    "Ako ay isang pulis.",
+    "Hinihiling ko na sumama ka sa akin sa istasyon ng pulis para sa imbestigasyon.",
+    "Hindi ito sapilitan. May karapatan kang tumanggi.",
+    "Kahit sumama ka, maaari kang umalis sa istasyon ng pulis anumang oras.",
+    "Maaari kang makipag-ugnayan sa iyong pamilya o kakilala, at maaari kang tumanggap ng tulong mula sa abogado.",
+    "Kusang-loob ka bang sasama sa amin? Pakisagot ng oo o hindi."
+  ],
+  "consular": [
+    "Bilang isang dayuhan, may karapatan kang hilingin na ipaalam ang iyong pagkakaaresto sa konsulado ng iyong bansa.",
+    "Maaari ka ring makipag-ugnayan sa mga opisyal ng konsulado at tumanggap ng kanilang pagbisita.",
+    "Gusto mo bang ipaalam namin ito sa iyong konsulado? Pakisagot ng oo o hindi."
+  ],
+  "yes": "Oo",
+  "no": "Hindi"
+}

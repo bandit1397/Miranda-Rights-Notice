@@ -1,0 +1,31 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Información de sus derechos", "voluntary": "Solicitud de acompañamiento voluntario", "consular": "Notificación consular" },
+  "arrest": "Usted queda bajo arresto en flagrancia por {crime}.",
+  "crimes": {
+    "theft": "hurto", "robbery": "robo con violencia", "assault": "agresión", "injury": "lesiones", "fraud": "estafa",
+    "drugs": "un delito contra la ley de drogas", "dui": "conducir en estado de ebriedad", "sexual_assault": "agresión sexual",
+    "immigration": "infringir la Ley de Inmigración", "obstruction": "obstrucción a la autoridad en el ejercicio de sus funciones", "general": "la comisión de un delito"
+  },
+  "rights": [
+    "Usted tiene derecho a designar un abogado y a recibir su asistencia.",
+    "Usted tiene derecho a dar explicaciones en su defensa.",
+    "Usted tiene derecho a guardar silencio.",
+    "Y usted tiene derecho a solicitar que un tribunal revise la legalidad de su arresto."
+  ],
+  "voluntary": [
+    "Soy agente de policía.",
+    "Le pido que me acompañe a la comisaría para una entrevista.",
+    "Esto no es obligatorio. Usted tiene derecho a negarse.",
+    "Aunque nos acompañe, puede salir de la comisaría en cualquier momento.",
+    "Puede contactar a su familia o conocidos, y puede recibir la asistencia de un abogado.",
+    "¿Acepta acompañarnos voluntariamente? Por favor, responda sí o no."
+  ],
+  "consular": [
+    "Como persona extranjera, usted tiene derecho a solicitar que se notifique su arresto al consulado de su país.",
+    "También puede comunicarse con los funcionarios consulares y recibir sus visitas.",
+    "¿Desea que notifiquemos a su consulado? Por favor, responda sí o no."
+  ],
+  "yes": "Sí",
+  "no": "No"
+}

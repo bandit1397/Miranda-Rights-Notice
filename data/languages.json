@@ -1,0 +1,21 @@
+[
+  { "code": "zh",  "name": "中文",             "nameKo": "중국어",       "flag": "🇨🇳", "bcp47": "zh-CN",  "voice": "zh-CN-XiaoxiaoNeural", "dir": "ltr" },
+  { "code": "vi",  "name": "Tiếng Việt",       "nameKo": "베트남어",     "flag": "🇻🇳", "bcp47": "vi-VN",  "voice": "vi-VN-HoaiMyNeural",   "dir": "ltr" },
+  { "code": "th",  "name": "ภาษาไทย",          "nameKo": "태국어",       "flag": "🇹🇭", "bcp47": "th-TH",  "voice": "th-TH-PremwadeeNeural", "dir": "ltr" },
+  { "code": "uz",  "name": "Oʻzbekcha",        "nameKo": "우즈베크어",   "flag": "🇺🇿", "bcp47": "uz-UZ",  "voice": "uz-UZ-MadinaNeural",   "dir": "ltr" },
+  { "code": "en",  "name": "English",          "nameKo": "영어",         "flag": "🇺🇸", "bcp47": "en-US",  "voice": "en-US-JennyNeural",    "dir": "ltr" },
+  { "code": "ru",  "name": "Русский",          "nameKo": "러시아어",     "flag": "🇷🇺", "bcp47": "ru-RU",  "voice": "ru-RU-SvetlanaNeural", "dir": "ltr" },
+  { "code": "mn",  "name": "Монгол",           "nameKo": "몽골어",       "flag": "🇲🇳", "bcp47": "mn-MN",  "voice": "mn-MN-YesuiNeural",    "dir": "ltr" },
+  { "code": "ne",  "name": "नेपाली",            "nameKo": "네팔어",       "flag": "🇳🇵", "bcp47": "ne-NP",  "voice": "ne-NP-HemkalaNeural",  "dir": "ltr" },
+  { "code": "id",  "name": "Bahasa Indonesia", "nameKo": "인도네시아어", "flag": "🇮🇩", "bcp47": "id-ID",  "voice": "id-ID-GadisNeural",    "dir": "ltr" },
+  { "code": "fil", "name": "Filipino",         "nameKo": "필리핀어",     "flag": "🇵🇭", "bcp47": "fil-PH", "voice": "fil-PH-BlessicaNeural", "dir": "ltr" },
+  { "code": "km",  "name": "ខ្មែរ",              "nameKo": "캄보디아어",   "flag": "🇰🇭", "bcp47": "km-KH",  "voice": "km-KH-SreymomNeural",  "dir": "ltr" },
+  { "code": "my",  "name": "မြန်မာ",             "nameKo": "미얀마어",     "flag": "🇲🇲", "bcp47": "my-MM",  "voice": "my-MM-NilarNeural",    "dir": "ltr" },
+  { "code": "kk",  "name": "Қазақша",          "nameKo": "카자흐어",     "flag": "🇰🇿", "bcp47": "kk-KZ",  "voice": "kk-KZ-AigulNeural",    "dir": "ltr" },
+  { "code": "si",  "name": "සිංහල",             "nameKo": "싱할라어",     "flag": "🇱🇰", "bcp47": "si-LK",  "voice": "si-LK-ThiliniNeural",  "dir": "ltr" },
+  { "code": "bn",  "name": "বাংলা",             "nameKo": "벵골어",       "flag": "🇧🇩", "bcp47": "bn-BD",  "voice": "bn-BD-NabanitaNeural", "dir": "ltr" },
+  { "code": "ja",  "name": "日本語",           "nameKo": "일본어",       "flag": "🇯🇵", "bcp47": "ja-JP",  "voice": "ja-JP-NanamiNeural",   "dir": "ltr" },
+  { "code": "es",  "name": "Español",          "nameKo": "스페인어",     "flag": "🇪🇸", "bcp47": "es-ES",  "voice": "es-ES-ElviraNeural",   "dir": "ltr" },
+  { "code": "fr",  "name": "Français",         "nameKo": "프랑스어",     "flag": "🇫🇷", "bcp47": "fr-FR",  "voice": "fr-FR-DeniseNeural",   "dir": "ltr" },
+  { "code": "ar",  "name": "العربية",          "nameKo": "아랍어",       "flag": "🇸🇦", "bcp47": "ar-SA",  "voice": "ar-SA-ZariyahNeural",  "dir": "rtl" }
+]

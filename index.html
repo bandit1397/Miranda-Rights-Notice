@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>다국어 권리고지</title>
+<meta name="description" content="현장 미란다 원칙·임의동행·영사기관 통보를 외국어 음성으로 고지하는 경찰관용 웹앱">
+<meta name="theme-color" content="#14213d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>다국어 권리고지</h1>
+  <button id="offlineBtn" class="ghost" type="button">오프라인 저장</button>
+</header>
+
+<main id="setup">
+  <section>
+    <h2><span class="step">1</span>상황</h2>
+    <div class="modes" id="modes"></div>
+  </section>
+
+  <section>
+    <h2><span class="step">2</span>언어</h2>
+    <input id="langSearch" type="search" placeholder="언어 검색 (예: 베트남, vi, Việt)" autocomplete="off">
+    <div class="langs" id="langs"></div>
+  </section>
+
+  <section id="crimeSec">
+    <h2><span class="step">3</span>죄명</h2>
+    <div class="chips" id="crimes"></div>
+  </section>
+
+  <section id="mandSec" hidden>
+    <label class="check">
+      <input type="checkbox" id="mandatory">
+      <span>중국 국적자입니다 — 한중 영사협정에 따라 <b>본인 의사와 관계없이 통보</b>합니다</span>
+    </label>
+  </section>
+
+  <button id="startBtn" class="primary" type="button" disabled>고지 화면 열기</button>
+
+  <p class="note">
+    음성은 Microsoft 뉴럴 TTS로 미리 생성해 두었습니다. 인터넷 없이 쓰려면 위의 <b>오프라인 저장</b>을 한 번 눌러 두세요.<br>
+    한국어 외 번역문은 <b>원어민·공식 번역 검수 전</b> 초안입니다. 정식 사용 전에 반드시 확인하세요.
+  </p>
+</main>
+
+<section id="notice" hidden>
+  <div class="bar">
+    <button id="backBtn" class="ghost" type="button">← 뒤로</button>
+    <span id="noticeLang" class="badge"></span>
+    <label class="speed">속도
+      <select id="speed">
+        <option value="0.8">느리게</option>
+        <option value="1" selected>보통</option>
+        <option value="1.15">빠르게</option>
+      </select>
+    </label>
+  </div>
+
+  <h2 id="noticeTitle" class="ntitle"></h2>
+  <p id="draftWarn" class="warn" hidden>번역 검수 전 초안</p>
+  <div id="lines" class="lines"></div>
+
+  <div class="controls">
+    <button id="playBtn" class="play" type="button">▶ 재생</button>
+    <p id="status" class="result" hidden></p>
+  </div>
+
+  <div id="answer" class="answer" hidden>
+    <div class="answer-btns">
+      <button id="yesBtn" class="yes" type="button"></button>
+      <button id="noBtn" class="no" type="button"></button>
+    </div>
+    <p id="answerResult" class="result" hidden></p>
+  </div>
+
+  <details id="koBox" class="ko">
+    <summary>한국어 원문 (경찰관 확인용)</summary>
+    <div id="koLines"></div>
+  </details>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

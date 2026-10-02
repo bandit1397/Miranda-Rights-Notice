@@ -1,0 +1,13 @@
+[
+  { "id": "theft",          "ko": "절도" },
+  { "id": "robbery",        "ko": "강도" },
+  { "id": "assault",        "ko": "폭행" },
+  { "id": "injury",         "ko": "상해" },
+  { "id": "fraud",          "ko": "사기" },
+  { "id": "drugs",          "ko": "마약류관리법 위반" },
+  { "id": "dui",            "ko": "음주운전" },
+  { "id": "sexual_assault", "ko": "강제추행" },
+  { "id": "immigration",    "ko": "출입국관리법 위반" },
+  { "id": "obstruction",    "ko": "공무집행방해" },
+  { "id": "general",        "ko": "범죄 (죄명 미특정)" }
+]

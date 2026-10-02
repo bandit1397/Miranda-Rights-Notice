@@ -1,0 +1,31 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Notification de vos droits", "voluntary": "Demande d'accompagnement volontaire", "consular": "Notification consulaire" },
+  "arrest": "Vous êtes en état d'arrestation pour {crime}, en flagrant délit.",
+  "crimes": {
+    "theft": "vol", "robbery": "vol avec violence", "assault": "violences volontaires", "injury": "coups et blessures", "fraud": "escroquerie",
+    "drugs": "infraction à la législation sur les stupéfiants", "dui": "conduite en état d'ivresse", "sexual_assault": "agression sexuelle",
+    "immigration": "infraction à la loi sur l'immigration", "obstruction": "entrave à l'action d'un agent public dans l'exercice de ses fonctions", "general": "une infraction pénale"
+  },
+  "rights": [
+    "Vous avez le droit de désigner un avocat et de bénéficier de son assistance.",
+    "Vous avez le droit de vous expliquer.",
+    "Vous avez le droit de garder le silence.",
+    "Et vous avez le droit de demander à un tribunal de contrôler la légalité de votre arrestation."
+  ],
+  "voluntary": [
+    "Je suis agent de police.",
+    "Je vous demande de m'accompagner au commissariat pour une audition.",
+    "Ce n'est pas obligatoire. Vous avez le droit de refuser.",
+    "Même si vous nous accompagnez, vous pouvez quitter le commissariat à tout moment.",
+    "Vous pouvez contacter votre famille ou vos proches, et bénéficier de l'assistance d'un avocat.",
+    "Acceptez-vous de nous accompagner volontairement ? Veuillez répondre oui ou non."
+  ],
+  "consular": [
+    "En tant que personne de nationalité étrangère, vous avez le droit de demander que le consulat de votre pays soit informé de votre arrestation.",
+    "Vous pouvez également communiquer avec les agents consulaires et recevoir leur visite.",
+    "Souhaitez-vous que nous informions votre consulat ? Veuillez répondre oui ou non."
+  ],
+  "yes": "Oui",
+  "no": "Non"
+}

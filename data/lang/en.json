@@ -1,0 +1,31 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Notice of Your Rights", "voluntary": "Request for Voluntary Accompaniment", "consular": "Consular Notification" },
+  "arrest": "You are under arrest for {crime} as you were caught in the act.",
+  "crimes": {
+    "theft": "theft", "robbery": "robbery", "assault": "assault", "injury": "causing bodily injury", "fraud": "fraud",
+    "drugs": "a drug offense", "dui": "drunk driving", "sexual_assault": "indecent assault",
+    "immigration": "violating the Immigration Act", "obstruction": "obstructing a public official in the performance of duty", "general": "a crime"
+  },
+  "rights": [
+    "You have the right to appoint a lawyer and receive assistance from your lawyer.",
+    "You have the right to explain yourself.",
+    "You have the right to remain silent.",
+    "And you have the right to request a court review of your arrest."
+  ],
+  "voluntary": [
+    "I am a police officer.",
+    "I am asking you to come with me to the police station for questioning.",
+    "This is not mandatory. You have the right to refuse.",
+    "Even if you come with us, you may leave the police station at any time.",
+    "You may contact your family or friends, and you may receive assistance from a lawyer.",
+    "Will you come with us voluntarily? Please answer yes or no."
+  ],
+  "consular": [
+    "As a foreign national, you have the right to request that the consulate of your country be notified of your arrest.",
+    "You may also communicate with consular officers and receive visits from them.",
+    "Do you want us to notify your consulate? Please answer yes or no."
+  ],
+  "yes": "Yes",
+  "no": "No"
+}

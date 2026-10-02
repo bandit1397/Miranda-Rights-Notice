@@ -1,0 +1,31 @@
+{
+  "reviewed": false,
+  "titles": { "miranda": "Pemberitahuan Hak Anda", "voluntary": "Permintaan Ikut Secara Sukarela", "consular": "Pemberitahuan Konsuler" },
+  "arrest": "Anda ditangkap karena tertangkap tangan melakukan {crime}.",
+  "crimes": {
+    "theft": "pencurian", "robbery": "perampokan", "assault": "kekerasan terhadap orang", "injury": "penganiayaan yang menyebabkan luka", "fraud": "penipuan",
+    "drugs": "pelanggaran undang-undang narkotika", "dui": "mengemudi dalam keadaan mabuk", "sexual_assault": "pencabulan dengan kekerasan",
+    "immigration": "pelanggaran undang-undang keimigrasian", "obstruction": "perbuatan menghalangi petugas yang sedang bertugas", "general": "tindak pidana"
+  },
+  "rights": [
+    "Anda berhak menunjuk pengacara dan mendapatkan bantuan dari pengacara Anda.",
+    "Anda berhak memberikan penjelasan untuk membela diri.",
+    "Anda berhak menolak memberikan keterangan.",
+    "Dan Anda berhak meminta pengadilan untuk memeriksa keabsahan penangkapan Anda."
+  ],
+  "voluntary": [
+    "Saya adalah petugas polisi.",
+    "Saya meminta Anda ikut bersama saya ke kantor polisi untuk dimintai keterangan.",
+    "Ini tidak wajib. Anda berhak menolak.",
+    "Meskipun Anda ikut, Anda boleh meninggalkan kantor polisi kapan saja.",
+    "Anda dapat menghubungi keluarga atau kenalan Anda, dan mendapatkan bantuan pengacara.",
+    "Apakah Anda bersedia ikut bersama kami secara sukarela? Silakan jawab ya atau tidak."
+  ],
+  "consular": [
+    "Sebagai warga negara asing, Anda berhak meminta agar konsulat negara Anda diberi tahu tentang penangkapan Anda.",
+    "Anda juga dapat berkomunikasi dengan pejabat konsuler dan menerima kunjungan mereka.",
+    "Apakah Anda ingin kami memberi tahu konsulat Anda? Silakan jawab ya atau tidak."
+  ],
+  "yes": "Ya",
+  "no": "Tidak"
+}
